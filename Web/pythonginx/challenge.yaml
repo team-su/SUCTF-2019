@@ -1,0 +1,9 @@
+# Challenge configuration
+name: CheckIn
+type: web
+value: 200
+description: >
+        Zedd做不出这道题被郁离歌嫌弃了，你能帮帮他吗？ddddhm?
+flag: SUCTF{67cc389fc00bd1e9db2956f3e46f74ad}
+image: true
+

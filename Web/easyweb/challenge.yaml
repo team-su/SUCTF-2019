@@ -1,0 +1,10 @@
+# Challenge configuration
+name: EasyPHP
+type: web
+value: 1000
+description: >
+       php is great!
+flag: suctf{Undefined_constant_With_htupload_fpmbypass}
+hints:
+        -  Use of undefined constant!
+image: true

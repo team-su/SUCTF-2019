@@ -1,0 +1,9 @@
+version: "3"
+services:
+  web:
+    image: easyphp
+    build: ./
+    ports: 
+      - "80"
+    restart: always
+

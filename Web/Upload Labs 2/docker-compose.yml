@@ -1,0 +1,10 @@
+version: '2'
+services:
+  phar:
+    image: phar
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "9025:80"

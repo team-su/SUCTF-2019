@@ -1,0 +1,13 @@
+version: '2'
+services:
+  web:
+    container_name: dockerflask
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: []
+    ports:
+      - "9000:80"
+    volumes:
+      - ./app:/app

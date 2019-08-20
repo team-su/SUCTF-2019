@@ -1,0 +1,7 @@
+version: '2.0'
+services:
+ easysql:
+   build:
+    context: .
+   ports:
+    - "20002:80"
