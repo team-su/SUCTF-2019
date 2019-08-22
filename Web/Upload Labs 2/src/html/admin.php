@@ -38,7 +38,7 @@ class Ad{
         $reflectionMethod->invoke($this->instance, $this->arg1);
 
         $reflectionMethod = new ReflectionMethod($this->clazz, $this->func2);
-        $reflectionMethod->invoke($this->instance, $this->arg2);
+        $reflectionMethod->invoke($this->instance, $this->arg2[0], $this->arg2[1], $this->arg2[2], $this->arg2[3], $this->arg2[4]);
 
         $reflectionMethod = new ReflectionMethod($this->clazz, $this->func3);
         $reflectionMethod->invoke($this->instance, $this->arg3);
