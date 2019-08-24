@@ -1,0 +1,2 @@
+~/build/bin/clang++ ./hardCpp.cpp -std=c++14 -mllvm -fla -mllvm -split_num=3 -mllvm -sub_loop=3 -lstdc++ -mllvm -bcf -stdlib=libc++ -o hardCpp
+ubuntu64 ollvm 4.0

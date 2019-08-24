@@ -1,0 +1,9 @@
+name: 签到题
+type: misc
+value: 200
+description: >
+            
+flag: SUCTF{480a523532f3516a01fe7ff3279bc73}     # 正确的flag
+hints:                          # 赛题提示
+    - Encryption with Triple DES
+image: true         

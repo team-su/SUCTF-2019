@@ -1,0 +1,10 @@
+# Challenge configuration
+name: BabyStack                # Challenge name
+type: pwn                       # Challenge type (web,pwn,misc,rev,mobile,crypto etc.)
+value: 
+description: >
+        StackOverflow on Linux is not difficult,how about it on Window?
+flag: flag{M4ybe_Saf3_SEH_1s_n0t_S4f3?}     # Correct flag
+hints:                          # Hints for current challenge
+    - SafeSEH,ScopeTable
+image: true                     # Shoule build docker image for this challenge

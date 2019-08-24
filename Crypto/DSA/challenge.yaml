@@ -1,0 +1,12 @@
+# Challenge configuration
+name: simple pwn                # 赛题名称
+type: crypto                       # 赛题类型 (web,pwn,misc,rev,mobile,crypto etc.)
+value: 500                      # 赛题分值
+description: >
+        这是一个yaml折行文本，
+        在这一项中写赛题说明
+flag: flag{s1mple_pwn_fl@g}     # 正确的flag
+hints:                          # 赛题提示
+    - The first hint.
+    - The second hint.
+image: true                     # 赛题是否包含服务端Docker镜像

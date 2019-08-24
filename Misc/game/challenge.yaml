@@ -1,0 +1,9 @@
+name: game
+type: misc
+value: 200
+description: >
+            How fast can you play
+flag: suctf{U_F0und_1t}     # 正确的flag
+hints:                          # 赛题提示
+    - Encryption with Triple DES
+image: true         
